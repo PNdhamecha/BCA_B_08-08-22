@@ -1,0 +1,33 @@
+<!DOCTYPE html>  
+<html>  
+<head> 
+    <title>slideToggle program</title> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>  
+<script>   
+$(document).ready(function(){  
+    $("#flip").click(function(){  
+        $("#panel").slideToggle("slow");  
+    });  
+});  
+</script>  
+ <style>   
+#panel, #flip {  
+    padding: 5px;  
+    text-align: center;  
+    background-color: #00FFFF;  
+    border: solid 1px #c3c3c3;  
+}  
+#panel {  
+    padding: 50px;  
+    display:none;  
+}  
+</style>  
+</head>  
+<body>  
+<div id="flip">Click to slide toggle panel</div>  
+<div id="panel">Hello javatpoint.com!   
+well organized and easy to understand web building tutorials.</div>  
+</body>  
+</html>  
+
+ 
